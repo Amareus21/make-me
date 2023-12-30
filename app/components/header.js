@@ -52,7 +52,7 @@ export default function Menu() {
           </Link>
         </li>
       </ul>
-      <div className="relative xl:hidden z-10 px-4">
+      <div className="relative xl:hidden z-30 px-4">
         <div onClick={onClick}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
