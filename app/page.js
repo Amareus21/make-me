@@ -23,7 +23,8 @@ export default function Home() {
             Hola, me llamo Amarok y tengo 10 años. Me encanta la programación y
             estoy aprendiendo Python, un lenguaje muy divertido y potente. Con
             Python puedo hacer muchas cosas, como crear juegos, aplicaciones,
-            gráficos y mucho más.
+            gráficos y mucho más. Tengo un grupo llamado make_me y somos lo que
+            estamos desarrollando toda esta comunidad.
           </Parrafo>
           <Parrafo>
             También me gusta crear videojuegos en Scratch, una plataforma online
