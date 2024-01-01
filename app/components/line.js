@@ -1,4 +1,4 @@
-export default function Line({color}) {
+export default function Line({className}) {
 
-  return <div className={`h-1 ${color} mb-4`}></div>;
+  return <div className={`h-1 ${className} mb-4 `}></div>;
 }

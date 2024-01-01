@@ -37,7 +37,8 @@ module.exports = {
       },
       animation : {
         parpadeo: 'parpadeo 3000ms linear 1800ms 1 both',
-        move: 'move 2000ms ease-in-out 5000ms infinite alternate both'
+        move: 'move 2000ms ease-in-out 5000ms infinite alternate both',
+        move2: 'move 2000ms ease-in-out infinite alternate both'
       }
     },
   },

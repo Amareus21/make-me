@@ -12,7 +12,7 @@ export default function MisJuegos() {
           <TituloPrincipal textSize="md:text-7xl">
             Pio Pio
           </TituloPrincipal>
-          <Line color="bg-[#ff3399]"/>
+          <Line className="bg-[#ff3399]"/>
           <div className="flex flex-col xl:flex-row lg:items-start items-center gap-5 justify-between">
             <iframe
               src="https://scratch.mit.edu/projects/922045006/embed"
@@ -23,7 +23,7 @@ export default function MisJuegos() {
             ></iframe>
             <div className="basis-1/2">
               <Titulo>Instrucciones</Titulo>
-              <Line color="bg-[#00ffcc]"/>
+              <Line className="bg-[#00ffcc]"/>
               <Parrafo>
                 Pollito azul:
                 <br />W para moverte hacia delante. A para moverte hacia la
