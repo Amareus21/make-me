@@ -1,4 +1,3 @@
-
 import Parrafo from "./components/parrafo";
 import Titulo from "./components/titulo";
 import TituloPrincipal from "./components/titulo_principal";
@@ -6,21 +5,26 @@ import Line from "./components/line";
 import { cookies } from "next/headers";
 export default function Home() {
   const cookie = cookies();
-  const animation = cookie.get('animation')
+  const animation = cookie.get("animation");
   return (
     <main className="flex flex-col justify-start items-center md:pt-36 pt-24 min-h-screen full w-full">
       <header>
         <TituloPrincipal
-          animation={`${animation?.value ? '' : 'md:animate-parpadeo'}`}
-          textSize={
-            "sm:text-9xl 2xl:text-[19rem] xl:text-[15rem] lg:text-[12rem] md:text-[9rem]"
-          }
+          className={`${
+            animation?.value ? "" : "md:animate-parpadeo"
+          } sm:text-9xl 2xl:text-[19rem] xl:text-[15rem] lg:text-[12rem] md:text-[9rem]`}
         >
           Make Me
         </TituloPrincipal>
       </header>
       <div className={`grow flex items-center md:px-4 py-4 pb-16`}>
-        <section className={`md:max-w-screen-lg md:px-8 px-4 py-10 rounded-sm ${animation?.value ? '' : 'md:animate-fade md:animate-duration-[300ms] md:animate-ease-linear md:animate-delay-[4500ms]'}`} >
+        <section
+          className={`md:max-w-screen-lg md:px-8 px-4 py-10 rounded-sm ${
+            animation?.value
+              ? ""
+              : "md:animate-fade md:animate-duration-[300ms] md:animate-ease-linear md:animate-delay-[4500ms]"
+          }`}
+        >
           <Titulo>Bienvenido</Titulo>
           <Line className="bg-[#00ffcc]" />
           <Parrafo>

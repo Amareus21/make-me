@@ -1,4 +1,4 @@
-export default function TituloPrincipal({ children, textSize, animation }) {
+export default function TituloPrincipal({ children, className }) {
   return (
     <h1
       style={{
@@ -8,7 +8,7 @@ export default function TituloPrincipal({ children, textSize, animation }) {
           "0px 0px 35px #ff3399",
         ],
       }}
-      className={`${textSize} bg-clip-text flex items-center w-max text-[3rem] ${animation} `}
+      className={`${className} bg-clip-text flex items-center w-max text-[3rem]`}
     >
       {children}
     </h1>

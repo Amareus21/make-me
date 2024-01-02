@@ -1,7 +1,7 @@
 import "./globals.css";
-import Menu from "./components/header";
 import { audiowave } from "./fonts";
 import { cookies } from "next/headers";
+import NavigatorBar from "./components/navigation_bar";
 export const metadata = {
   title: "Make Me",
   description: "Pagina web del grupo de desarollo de juegos Make me",
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={`${audiowave.className}`}>
-        <Menu animation={animation} />
+        <NavigatorBar animation={animation} />
         {children}
       </body>
     </html>
