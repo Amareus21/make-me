@@ -10,7 +10,7 @@ export default function NavigatorBar({ animation }) {
 
   const links = [
     { link: "/", name: "Inicio" },
-    { link: "/juegos", name: "Juego" },
+    { link: "/juegos", name: "Juegos" },
     { link: "/creditos", name: "Creditos" },
   ];
 

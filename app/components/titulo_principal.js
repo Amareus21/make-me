@@ -8,7 +8,7 @@ export default function TituloPrincipal({ children, className }) {
           "0px 0px 35px #ff3399",
         ],
       }}
-      className={`${className} bg-clip-text flex items-center w-max text-[3rem]`}
+      className={`${className} bg-clip-text flex items-center w-max text-7xl`}
     >
       {children}
     </h1>
