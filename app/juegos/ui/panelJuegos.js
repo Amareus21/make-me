@@ -4,7 +4,13 @@ import Titulo from "@/app/components/titulo";
 import TituloPrincipal from "@/app/components/titulo_principal";
 import Link from "next/link";
 
-export default function PanelJuegos({ tituloPrincipal, titulo, src, texto }) {
+export default function PanelJuegos({
+  tituloPrincipal,
+  titulo,
+  src,
+  texto,
+  descarga,
+}) {
   return (
     <div className="py-5">
       <TituloPrincipal className="md:text-7xl py-5">
@@ -22,13 +28,19 @@ export default function PanelJuegos({ tituloPrincipal, titulo, src, texto }) {
         <div className="basis-1/2">
           <Titulo>{titulo}</Titulo>
           <Line className="bg-[#00ffcc]" />
-          <Parrafo>{texto}<br/><Link
-              className="text-red-500 "
-              download={"PioPioSetup.exe"}
-              href="/PioPioSetup.exe"
-            >
-              Download
-            </Link></Parrafo>
+            <Parrafo>
+              {texto}
+              <br />
+          {descarga && (
+              <Link
+                className="text-red-500 "
+                href={descarga.src}
+                download={descarga.download}
+              >
+                {descarga.texto}
+              </Link>
+          )}
+            </Parrafo>
         </div>
       </div>
     </div>
