@@ -16,7 +16,7 @@ export default function Creditos() {
             <Titulo>Jefes/as</Titulo>
             <Line className="bg-[#00ffcc] 2xl:w-1/3 w-[325px]" />
             <Parrafo>Jefes principal: Àmarok</Parrafo>
-            <Parrafo>Jefa de artes y animaciones: Alicia</Parrafo>
+            <Parrafo>Jefa de artes y animaciones: Mar  (#M4R22)</Parrafo>
           </div>
           <div>
             <Titulo>Curadores</Titulo>
@@ -30,14 +30,11 @@ export default function Creditos() {
             <Parrafo>Àmarok</Parrafo>
             <Parrafo>Miguel</Parrafo>
             <Parrafo>Martí</Parrafo>
-            <Parrafo>Daniel</Parrafo>
           </div>
           <div>
             <Titulo>Creadores de series</Titulo>
             <Line className="bg-[#00ffcc] 2xl:w-1/3 w-[325px]" />
             <Parrafo>Martí</Parrafo>
-            <Parrafo>Leo</Parrafo>
-            <Parrafo>Daniel</Parrafo>
           </div>
           <div>
             <Titulo>Artes y animaciones</Titulo>
@@ -45,7 +42,8 @@ export default function Creditos() {
             <Parrafo>Alicia</Parrafo>
             <Parrafo>Emma.E</Parrafo>
             <Parrafo>Emma.M</Parrafo>
-            <Parrafo>Mar</Parrafo>
+            <Parrafo>Mar  (#M4R22)</Parrafo>
+            <Parrafo>Paula</Parrafo>
           </div>
       </div>
     </main>
