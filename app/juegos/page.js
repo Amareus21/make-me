@@ -13,6 +13,7 @@ export default function MisJuegos() {
             tituloPrincipal={data.tituloPrincipal}
             src={data.src}
             texto={data.texto}
+            descarga={data?.descarga}
           />
         ))}
       </div>

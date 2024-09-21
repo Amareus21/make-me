@@ -101,10 +101,10 @@ export default function NavigatorBar({ animation }) {
 
   function NavigationLineAnimation() {
     return (
-      <div className="absolute top-0 left-0 w-full h-full">
+      <div className="absolute md:block hidden top-0 left-0 w-full h-full">
         <div
-          className={`relative md:block hidden ${
-            animation ? "md:animate-move2" : "md:animate-move"
+          className={`relative animate-none ${
+            animation ? "md:animate-move2" : "md:animate-move" 
           } top-0 left-0 w-48 h-full`}
           style={{
             boxShadow: [

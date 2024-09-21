@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "make-me": "file:",
     "next": "14.0.4",
     "react": "^18",
     "react-cookie": "^7.0.0",

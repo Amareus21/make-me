@@ -6,7 +6,7 @@ export default function Creditos() {
   return (
     <main className="flex justify-center min-h-screen w-full bg-black">
       <div
-        className={`2xl:container w-full grid grid-cols-1 z-10 h-max md:pt-36 pt-24 pb-6 px-1 md:px-8 px-4 gap-5`}
+        className={`2xl:container w-full grid grid-cols-1 z-10 h-max md:pt-36 pt-24 pb-6 md:px-8 px-4 gap-5`}
       >
           <div>
             <TituloPrincipal textSize="md:text-7xl">Creditos</TituloPrincipal>
